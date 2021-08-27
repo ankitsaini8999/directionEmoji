@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: lightcyan;
+}
+
+section #box {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background: yellow;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+section #box .eyeball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #cfd307;
+  border-radius: 50%;
+}
+
+section #box .eyeball:nth-child(1) {
+  top: 30%;
+  left: 20%;
+  -webkit-transform: translate(-20%, -30%);
+          transform: translate(-20%, -30%);
+}
+
+section #box .eyeball:nth-child(2) {
+  top: 30%;
+  left: 80%;
+  -webkit-transform: translate(-80%, -30%);
+          transform: translate(-80%, -30%);
+}
+
+section #box .eyeball .eye {
+  width: 30px;
+  height: 30px;
+  background: #000;
+  border-radius: 50%;
+}
+
+section #box .mouth {
+  width: 150px;
+  height: 50px;
+  background: #cfd307;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -80%);
+          transform: translate(-50%, -80%);
+  border-radius: 10px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+section #box .active {
+  border-radius: 0 0 35px 35px;
+}
+
+section button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -90%);
+          transform: translate(-50%, -90%);
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
