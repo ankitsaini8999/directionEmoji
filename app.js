@@ -16,9 +16,9 @@ section.addEventListener("mousemove", (e) => {
 	eye2.style.transform = `translate(${posX * 70}px,${posY * 70}px)`;
 });
 
-butt.addEventListener("mouseenter", () => {
+box.addEventListener("mouseenter", () => {
 	mouth.classList.add("active");
 });
-butt.addEventListener("mouseleave", () => {
+box.addEventListener("mouseleave", () => {
 	mouth.classList.remove("active");
 });

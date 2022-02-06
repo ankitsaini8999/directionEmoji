@@ -63,23 +63,12 @@ section #box .mouth {
   -webkit-transform: translate(-50%, -80%);
           transform: translate(-50%, -80%);
   border-radius: 10px;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border-radius: 55px 55px 0 0;
 }
 
 section #box .active {
-  border-radius: 0 0 35px 35px;
-}
-
-section button {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -90%);
-          transform: translate(-50%, -90%);
-  width: 100px;
-  height: 50px;
-  font-size: 30px;
-  cursor: pointer;
+  border-radius: 0 0 55px 55px;
 }
 /*# sourceMappingURL=style.css.map */
